@@ -14,6 +14,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        // View will appear
+    }
 
+    override func viewWillDisappear(_ animated: Bool) {
+        // View will disappear
+    }
 }
 
